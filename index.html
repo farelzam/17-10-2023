@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<script>
+        // class siswa {
+      //   constructor (nama,seragam,jurusan){
+      //     this.nama = nama;
+      //     this.seragam = seragam;
+      //     this.jurusan = jurusan;
+      //   }
+      // }
+      //   let roni = new siswa ("roni","kuning","PPLG");
+      //   let dono = new siswa ("dono","merah","Akutansi");
+      //   let tono = new siswa ("tono","hitam","TKR");
+
+      //   console.log(roni,dono,tono);
+        
+      class kendaraan {
+          constructor (model,merk,harga){
+            this.model = model;
+            this.merk = merk;
+            this.harga = harga;
+          }
+        
+          
+        
+          maju() {
+            return `mesin ${this.merk} ${this.model} berjalan maju`;
+          }
+        
+          berhenti(){
+            return `mesin ${this.merk} ${this.model} berhenti`;
+          }
+        }
+
+        let mobil = new kendaraan ("supra","toyota",200000);
+          let motor = new kendaraan ("CBR","Honda",200000);
+
+          console.log(mobil.maju());
+          console.log(motor.berhenti());
+</script>
+<body>
+  
+</body>
+</html>
